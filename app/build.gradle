@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.example.valorantcompose'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.valorantcompose"
@@ -58,6 +58,10 @@ dependencies {
     implementation libs.material3
     implementation libs.retrofit
     implementation libs.converter.gson
+    implementation libs.hilt.android
+    implementation libs.glide
+    implementation libs.androidx.navigation.compose
+    implementation libs.kotlinx.coroutines.core
     testImplementation libs.junit
     androidTestImplementation libs.androidx.test.ext.junit
     androidTestImplementation libs.espresso.core
